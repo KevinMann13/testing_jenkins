@@ -45,7 +45,7 @@ build_venv () {
 [ -n "${REBUILD_VENV}" ] && delete_venv && build_venv ;
 [ ! -f "venv/bin/activate" ] && build_venv ;
 
-source venv/bin/activate
+. venv/bin/activate
 
 # update to a pip that can support the wheel distribution format
 pip install pip -U setuptools

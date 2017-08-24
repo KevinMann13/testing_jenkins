@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # source this script to build and enter virtualenv for Jenkins job workspaces
 # 1. supply a requirements.txt file at the root of your workspace
 # 2. supports secrets files

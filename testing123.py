@@ -9,4 +9,4 @@ else:
 
 print("Hello world 123 456!")
 
-sys.exit("FAILED DAMNIT!")
+sys.exit(0)

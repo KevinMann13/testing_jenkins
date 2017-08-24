@@ -1,6 +1,7 @@
 import os
 import sys
 import json
+import pyjokes
 
 if "TD_USER" in os.environ:
     print("Made it in here!")
@@ -8,6 +9,6 @@ if "TD_USER" in os.environ:
 else:
     print("No TD_USER")
 
-print("Hello world 123 456!")
+print("Hello world 123 456 789!")
 
-print(os.environ)
+print(pyjokes.get_joke())

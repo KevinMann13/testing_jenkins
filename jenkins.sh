@@ -51,4 +51,4 @@ source venv/bin/activate
 pip install pip -U setuptools
 
 # install requirements
-# pip install -r requirements.txt
+pip install -r requirements.txt

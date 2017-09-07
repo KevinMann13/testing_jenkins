@@ -51,4 +51,4 @@ build_venv () {
 pip install pip -U setuptools
 
 # install requirements
-pip install -r requirements.txt
+pip install -U -r requirements.txt

@@ -48,7 +48,6 @@ build_venv () {
 . venv/bin/activate
 
 # update to a pip that can support the wheel distribution format
-pip install pip -U setuptools
 
 # install requirements
 pip install -r requirements.txt
